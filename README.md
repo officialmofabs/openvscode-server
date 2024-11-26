@@ -51,7 +51,7 @@ You can pre-install vscode extensions in such a way:
 ```dockerfile
 FROM gitpod/openvscode-server:latest
 
-ENV OPENVSCODE_SERVER_ROOT="/home/.openvscode-server"
+ENV OPENVSCODE_SERVER_ROOT="/home/developer/workspace/workspace-srv.openvscode-server"
 ENV OPENVSCODE="${OPENVSCODE_SERVER_ROOT}/bin/openvscode-server"
 
 SHELL ["/bin/bash", "-c"]
